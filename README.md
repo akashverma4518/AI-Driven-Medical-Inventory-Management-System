@@ -1,320 +1,153 @@
-🏥 AI Driven Medical Inventory Management System
+# AI Driven Medical Inventory Management System
 
-<p align="center">
+An AI Driven Medical Inventory Management System designed to help hospitals and healthcare organizations manage medicines and medical supplies efficiently using Data Structures and Algorithms.
 
-<b>{=html}An intelligent, DSA-based approach to medical inventory
-organization, prioritization and decision support.</b>{=html}
+## Problem Statement
 
-</p>
+Manual medical inventory management can make it difficult to track medicine availability, expiry dates, stock movement and changing demand. Delayed identification of shortages or near-expiry medicines can affect hospital operations.
 
-<p align="center">
+The proposed system provides an organized approach for maintaining medical inventory records, monitoring stock levels, identifying critical items and supporting timely inventory decisions.
 
-<img src="https://img.shields.io/badge/Project-DSA--II-blue" alt="DSA-II">{=html}
-<img src="https://img.shields.io/badge/Status-In%20Progress-orange" alt="Status">{=html}
-<img src="https://img.shields.io/badge/Progress-25%25-yellow" alt="Progress">{=html}
-<img src="https://img.shields.io/badge/SDG-3-green" alt="SDG 3">{=html}
+## Objectives
 
-</p>
+* Maintain structured records of medicines and medical supplies.
+* Monitor available, consumed and replenished stock.
+* Identify low-stock and critical inventory items.
+* Track expiry-related information and reduce wastage.
+* Apply Data Structures and Algorithms for efficient searching, organization and prioritization.
+* Use intelligent analysis for inventory forecasting and decision-making.
 
-📖 About the Project
+## Proposed System
 
-The AI Driven Medical Inventory Management System is an academic
-project proposed to help hospitals and healthcare organizations manage
-medicines and medical supplies in a more organized and intelligent
-manner.
+The system maintains a centralized inventory containing information such as:
 
-The system focuses on maintaining structured inventory records,
-monitoring stock levels, identifying low-stock or critical items,
-tracking expiry-related information, and supporting inventory decisions
-through suitable Data Structures and Algorithms along with
-intelligent analysis.
+* Medicine / Item Name
+* Quantity
+* Category
+* Expiry Date
+* Usage
+* Reorder Requirement
 
-Current stage: Month 1 --- Problem Understanding & Initial
-Progress
-Overall progress: 25%
+Data Structures are used to organize, search and prioritize inventory information efficiently. The AI-driven component is intended to analyze inventory patterns and demand to assist with stock prediction, shortage alerts and replenishment decisions.
 
-🎯 Problem Statement
+## Data Structures Used
 
-Manual medical inventory management can make it difficult to efficiently
-track:
+### 1. Trees
 
-💊 Medicine availability
+Trees are used for hierarchical organization of medicines based on categories, types and other inventory attributes.
 
-📦 Stock movement and quantities
+### 2. AVL Trees
 
-📅 Expiry dates
+AVL Trees can be used for balanced searching and efficient retrieval of frequently accessed inventory records.
 
-📈 Changing demand
+### 3. Heaps / Max Heap
 
-⚠️ Low-stock and critical medicines
+Heaps can be used to prioritize low-stock, high-demand or critical medicines.
 
-🔄 Replenishment requirements
+### 4. Tree Traversal
 
-Delayed identification of shortages or near-expiry medicines can affect
-hospital operations. This project proposes an organized and intelligent
-approach for monitoring medical inventory and supporting timely
-stock-management decisions.
+Tree traversal can be used for systematic processing of hierarchical inventory records.
 
-🚀 Objectives
+### 5. Graphs
 
-Maintain structured records of medicines and medical supplies.
+Graphs can represent relationships between:
 
-Monitor available, consumed and replenished stock.
+* Medicines
+* Suppliers
+* Categories
+* Inventory Transactions
 
-Identify low-stock and critical inventory items.
+### 6. Adjacency List / Adjacency Matrix
 
-Track expiry-related information and help reduce wastage.
+These representations can be used to store relationships in the proposed inventory graph.
 
-Apply suitable DSA-II concepts for efficient searching, organization
-and prioritization.
+## AI Component
 
-Use intelligent analysis to support inventory forecasting and
-decision-making.
+The AI component is proposed to analyze inventory patterns and medicine demand.
 
-🧩 Proposed System
+It can help with:
 
-The proposed system will maintain a centralized inventory containing
-information such as:
+* Demand analysis
+* Stock prediction
+* Shortage identification
+* Replenishment decisions
+* Inventory planning
 
-Inventory Attribute       Purpose
+The AI component complements the DSA-based organization of inventory data.
 
-Item Name             Identify the medicine or medical supply
-Quantity              Track current stock
-Category              Organize medicines hierarchically
-Expiry Date           Monitor expiry-related risk
-Usage                 Track consumption patterns
-Reorder Requirement   Support replenishment decisions
+## Target Users
 
-The system is conceptually divided into two complementary areas:
+* Hospital Pharmacies
+* Pharmacists
+* Inventory / Store Management Staff
+* Doctors and Healthcare Staff
+* Hospital Administrators
 
-🔹 DSA-Based Inventory Management
+## Project Progress
 
-Data structures are intended to handle searching, hierarchical
-organization, relationships and priority-based inventory handling
-efficiently.
+### Month 1 — 25%
 
-🔹 Intelligent Analysis
+Completed work:
 
-The AI-driven component is intended to analyze inventory patterns and
-demand to assist with stock prediction, shortage alerts and
-replenishment decisions.
+* Problem statement finalized
+* Medical inventory challenges studied
+* Initial objectives and scope defined
+* Target users and stakeholders identified
+* DSA-II Unit 1 (Trees) studied
+* DSA-II Unit 2 (Graphs) studied
+* Trees, Heaps and Graphs mapped to the proposed system
+* Initial conceptual representation developed
+* Next-stage project plan prepared
 
-🧠 Data Structures & Algorithms
+## Future Work
 
-🌳 Trees
+* Finalize functional and data requirements.
+* Finalize data structures for inventory records.
+* Develop the initial graph model.
+* Apply tree and heap concepts to the system.
+* Develop an initial AI-based demand and stock analysis approach.
+* Implement a small working component.
+* Perform testing and refinement.
+* Complete final project documentation.
 
-Used conceptually for hierarchical organization of medicines based on
-categories, types or other inventory attributes.
+## Research Papers
 
-⚡ AVL Trees
+### 1. A smart inventory management system with medication demand dependencies in a hospital supply chain: A multi-agent reinforcement learning approach
 
-Proposed for balanced searching and retrieval of frequently accessed
-inventory records.
+Saha & Rathore (2024)
 
-🏆 Max Heap
+https://doi.org/10.1016/j.cie.2024.110165
 
-Proposed for prioritizing low-stock, high-demand or critical medicines.
+### 2. LSTM Drug Demand Forecasting with Adjustment Strategies as a Preliminary Step Toward Optimizing Hospital Drug Inventory Management
 
-🔄 Tree Traversal
+Laomala et al. (2024)
 
-Can support systematic processing of hierarchical inventory records.
+https://journals.sagepub.com/doi/10.3233/FAIA241450
 
-🕸️ Graphs
+### 3. Digital transformation in pharmaceuticals: The impact of AI on supply chain management
 
-Used conceptually to represent relationships among:
+(2025)
 
-Medicines ↔ Suppliers ↔ Categories ↔ Inventory Transactions
+https://www.sciencedirect.com/science/article/pii/S3050837125000086
 
-📋 Graph Representation
+## Sustainable Development Goal
 
-The proposed graph model may use:
+### SDG 3 — Good Health and Well Being
 
-Adjacency List
+The project is aligned with SDG 3 by focusing on efficient management and availability of medicines and medical supplies in healthcare organizations.
 
-Adjacency Matrix
+## Academic Information
 
-🔗 Conceptual Relationship Model
+**Course:** Data Structure and Algorithms - II
+**Course Code:** CCSE0301
+**Assignment:** Individual Assignment
+**Student:** Akash Verma
+**Branch:** B-Tech CSE-A
+**Faculty:** Mr. Shamshad Ali
+**Progress:** 25%
 
-                    ┌─────────────────┐
-                    │    Inventory    │
-                    └────────┬────────┘
-                             │
-             ┌───────────────┼───────────────┐
-             │               │               │
-             ▼               ▼               ▼
-        ┌─────────┐     ┌──────────┐    ┌────────────┐
-        │Medicine │     │ Category │    │  Supplier  │
-        └────┬────┘     └──────────┘    └─────┬──────┘
-             │                                 │
-             └──────────────┬──────────────────┘
-                            ▼
-                    ┌─────────────────┐
-                    │   Transactions  │
-                    └─────────────────┘
+## Author
 
-This is a conceptual representation for the current project stage, not
-a completed implementation.
+**Akash Verma**
 
-🤖 AI Component
-
-The proposed intelligent component will complement the DSA-based
-inventory structure by analyzing:
-
-Historical inventory patterns
-
-Medicine demand
-
-Stock levels
-
-Potential shortages
-
-Replenishment requirements
-
-The intended outcome is to support better forecasting, shortage alerts
-and inventory decision-making.
-
-👥 Target Users
-
-🏥 Hospital pharmacies and pharmacists
-
-📦 Hospital inventory and store-management staff
-
-👨‍⚕️ Doctors and healthcare staff
-
-🧑‍💼 Hospital administrators
-
-💻 Developers and project evaluators
-
-📚 Research & Literature
-
-The project study includes research related to AI-based pharmaceutical
-demand forecasting, hospital medication inventory optimization and
-intelligent supply-chain management.
-
-1. Saha & Rathore (2024)
-
-A smart inventory management system with medication demand
-dependencies in a hospital supply chain: A multi-agent reinforcement
-learning approach
-
-🔗 View Research Paper
-
-2. Laomala et al. (2024)
-
-LSTM Drug Demand Forecasting with Adjustment Strategies as a
-Preliminary Step Toward Optimizing Hospital Drug Inventory Management
-
-🔗 View Research
-Paper
-
-3. Digital Transformation in Pharmaceuticals (2025)
-
-The impact of AI on supply chain management
-
-🔗 View Research
-Paper
-
-📊 Project Progress
-
-Month 1 --- 25% Completed
-
-Problem statement finalized
-
-Medical inventory challenges studied
-
-Initial objectives and scope defined
-
-Main users and stakeholders identified
-
-DSA-II Units 1 and 2 studied
-
-Trees, Heaps and Graphs mapped conceptually to the project
-
-Initial representation of medicines, suppliers, categories and
-transactions planned
-
-Next-stage project plan prepared
-
-🚧 Current Status
-
-Detailed system design, AI-based analysis, implementation and testing
-are planned for subsequent review stages.
-
-🗺️ Roadmap
-
-Problem understanding
-
-Requirement analysis
-
-DSA concept study
-
-Initial conceptual model
-
-Finalize functional and data requirements
-
-Finalize data structures
-
-Develop initial graph model
-
-Apply tree and heap concepts
-
-Develop initial AI-based demand/stock analysis
-
-Implement a small working component
-
-Testing and refinement
-
-Final project documentation
-
-⚠️ Challenges Identified
-
-Mapping DSA concepts to a real-world medical inventory problem.
-
-Selecting data structures that are genuinely useful.
-
-Representing medicines, categories, suppliers and transactions
-effectively.
-
-Understanding priority handling using heaps.
-
-Representing relationships using graphs.
-
-Integrating AI-based demand analysis with DSA-based organization.
-
-Keeping the initial design simple and feasible within the project
-timeline.
-
-🌍 Sustainable Development Goal
-
-SDG 3 --- Good Health and Well Being
-
-The project is aligned with SDG 3 by focusing on efficient
-management and availability of medicines and medical supplies in
-healthcare organizations.
-
-🎓 Academic Information
-
-Detail                Information
-
-Course            Data Structure and Algorithms - II
-Course Code       CCSE0301
-Assignment        Individual Assignment
-Student           Akash Verma
-Branch            B-Tech CSE-A
-Faculty           Mr. Shamshad Ali
-Reporting Month   Month 1
-Progress          25%
-SDG               SDG 3 -- Good Health and Well Being
-
-👨‍💻 Author
-
-Akash Verma
-
-GitHub: @akashverma4518
-
-<p align="center">
-
-<b>{=html}AI Driven Medical Inventory Management
-System</b>{=html}<br>{=html} Data Structures & Algorithms --- II
-
-</p>
+GitHub: https://github.com/akashverma4518
