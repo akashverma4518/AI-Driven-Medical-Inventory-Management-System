@@ -1,3 +1,5 @@
+AI Driven Medical Inventory Management System
+An AI Driven Medical Inventory Management System designed to help hospitals and healthcare organizations manage medicines and medical supplies efficiently using Data Structures and Algorithms
 1. Previous Review Feedback
 The Phase-I report identified the need to refine the functional and data requirements, finalize suitable data structures, develop the graph model, apply tree and heap concepts, prepare an initial AI-based demand/stock analysis approach, and begin a small working component using sample inventory data.
 2. Action Taken on Previous Feedback
